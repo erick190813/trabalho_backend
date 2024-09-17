@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1726073995515,
+    "nome": "Samsung Galaxy 24 Ultra",
+    "fabricante": "Samsung",
+    "valor": 6000,
+    "quantidade": 5,
+    "img_produto": "/uploads/1726073995511.png"
+  },
+  {
+    "id": 1726074072315,
+    "nome": "Controle Xbox Series X Elite",
+    "fabricante": "Microsoft",
+    "valor": 1200,
+    "quantidade": 8,
+    "img_produto": "/uploads/1726162466188.png"
+  },
+  {
+    "id": 1726074121280,
+    "nome": "Controle Dual Sense Edge",
+    "fabricante": "Sony",
+    "valor": 1200,
+    "quantidade": 6,
+    "img_produto": "/uploads/1726162767444.png"
+  },
+  {
+    "id": 1726074232395,
+    "nome": "Monitor Azus TUF 23 pol",
+    "fabricante": "Azus TUF",
+    "valor": 2100,
+    "quantidade": 4,
+    "img_produto": "/uploads/1726078602200.png"
+  },
+  {
+    "id": 1726074306636,
+    "nome": "Notbook Gamer Dell G15",
+    "fabricante": "Dell",
+    "valor": 7000,
+    "quantidade": 2,
+    "img_produto": "/uploads/1726162554237.png"
+  },
+  {
+    "id": 1726074420145,
+    "nome": "Mouse Alienware",
+    "fabricante": "Alienware",
+    "valor": 700,
+    "quantidade": 4,
+    "img_produto": "/uploads/1726074420143.png"
+  },
+  {
+    "id": 1726074468077,
+    "nome": "Headset HyperX",
+    "fabricante": "HyperX",
+    "valor": 450,
+    "quantidade": 8,
+    "img_produto": "/uploads/1726162651780.png"
+  },
+  {
+    "id": 1726162337211,
+    "nome": "Teclado Alienware",
+    "fabricante": "Alienware",
+    "valor": 960,
+    "quantidade": 9,
+    "img_produto": "/uploads/1726162337208.png"
+  }
+]

@@ -1,0 +1,74 @@
+
+
+/* Estilo geral do cartão */
+.card {
+    border: 1px solid #dee2e6; /* Borda cinza clara */
+    border-radius: 1rem; /* Bordas arredondadas */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.185); /* Sombra suave */
+    transition: box-shadow 0.2s ease-in-out; /* Transição suave para a sombra */
+}
+
+.card:hover {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.6); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Estilo da imagem do cartão */
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    object-fit: cover; /* Ajusta a imagem para cobrir o card */
+}
+
+/* Estilo do corpo do cartão */
+.card-body {
+    padding: 1.25rem; /* Espaçamento interno */
+}
+
+/* Estilo do título do cartão */
+.card-title {
+    margin-bottom: 0.75rem; /* Espaço abaixo do título */
+    font-size: 1.25rem; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte */
+}
+
+/* Estilo do texto do cartão */
+.card-text {
+    margin-bottom: 0.5rem; /* Espaço abaixo do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Estilo do rodapé do cartão */
+.card-footer {
+    display: flex;
+    justify-content: space-between; /* Espaço entre o conteúdo */
+    align-items: center; /* Alinha verticalmente os itens */
+    padding: 0.75rem 1.25rem; /* Espaçamento interno */
+    border-top: 1px solid #dee2e6; /* Borda superior */
+    background-color: #8c9196; /* Cor de fundo */
+}
+
+/* Espaço à esquerda dos elementos no rodapé */
+.card-footer span {
+    margin-left: 10px;
+}
+
+/* Estilo da seção de avaliação */
+.rating {
+    display: flex;
+    cursor: pointer; /* Mão ao passar o mouse sobre as estrelas */
+}
+
+/* Estilo das estrelas */
+.rating .fa-star {
+    color: rgb(77, 74, 74); /* Cor padrão das estrelas */
+    font-size: 1.5rem; /* Tamanho das estrelas */
+    transition: color 0.2s; /* Transição suave para a cor */
+}
+
+/* Estilo das estrelas selecionadas */
+.rating .fa-star.selected {
+    color: rgb(255, 215, 0); /* Cor das estrelas selecionadas */
+}
+
+
+
